@@ -46,8 +46,6 @@ class Reader:
         Parse the byte file, and check if key is in the constants dict and using the values and keys from this dict.
         The correct bytes and corresponding values are appended to a pool, which in turn gets added to the meta dict.
 
-
-
         :return: dict with all read values.
         """
         self.__read_meta()
