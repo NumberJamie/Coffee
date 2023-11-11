@@ -6,5 +6,5 @@ Put your compiled java class file in: `data/Main.class`. or use the default alre
 an environment (or don't) with python version 3. This project was made using `python 3.12`
 
 ##### inspiration
-[Tscoding](https://github.com/tscoding/JelloVM)
+[Tsoding](https://github.com/tsoding/JelloVM)
 [Compiled Java file](https://github.com/tsoding/JelloVM/blob/master/Main.class)
