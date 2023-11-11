@@ -1,10 +1,6 @@
 import io
-import pprint
 
 from data.constant import CONSTANTS
-
-
-pp = pprint.PrettyPrinter()
 
 
 class Reader:
@@ -71,7 +67,7 @@ class Reader:
 def main():
     with open('data/Main.class', 'rb') as file:
         meta = Reader(file).parse()
-        pp.pprint(meta)
+        print(meta)
 
 
 if __name__ == '__main__':
